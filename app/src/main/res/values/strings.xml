@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <string name="start">Start</string>
+    <string name="developed_by_alexandru_robert_mihai">Developed by Alexandru Robert-Mihai</string>
+    <string name="an">2023</string>
+    <string name="title_activity_quizz_acivity_main">QuizzAcivityMain</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="close_navigation_drawer">Close navigation drawer</string>
+    <string name="open_navigation_drawer">Open navigation drawer</string>
+    <string name="home_is_selected">Home is selected!\n</string>
+    <string name="gallery_is_selected">Gallery is selected!</string>
+    <string name="quizz_1_geography">QUIZZ 1 - GEOGRAPHY</string>
+    <string name="quizz_2_science">QUIZZ 2 - SCIENCE</string>
+    <string name="quizz_3_art">QUIZZ 3 - ART</string>
+    <string name="quizz_1_selected">QUIZZ 1 - SELECTED</string>
+    <string name="quizz_2_selected">QUIZZ 2 - SELECTED</string>
+    <string name="quizz_3_selected">QUIZZ 3 - SELECTED</string>
+    <string name="quizz_4_selected">QUIZZ 3 - SELECTED</string>
+    <string name="to_start_one_of_the_3_quizzes_you_can_enter_the_3_dots_on_the_top_left_of_the_screen_and_then_start">To start one of the 3 quizzes you can enter the 3 dots on the top-left of the screen and then start!</string>
+    <string name="submit">Submit</string>
+</resources>

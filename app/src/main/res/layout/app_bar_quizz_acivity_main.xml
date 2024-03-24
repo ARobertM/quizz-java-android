@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizzActivityMain">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.QuizzApp.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/blue_background_main_quizz"
+            android:backgroundTint="@color/blue_title"
+            app:popupTheme="@style/Theme.QuizzApp.PopupOverlay" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_quizz_acivity_main" />
+
+    <View
+        android:id="@+id/res_quiz_view"
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="463dp"
+        android:layout_height="328dp"
+        android:src="@drawable/quizzhowto"
+        app:layout_anchor="@+id/res_quiz_view"
+        app:layout_anchorGravity="end|center" />
+
+    <TextView
+        android:id="@+id/tv_res_quizz"
+        android:layout_width="297dp"
+        android:layout_height="151dp"
+        android:fontFamily="sans-serif-condensed"
+        android:shadowColor="@color/black"
+        android:text="@string/to_start_one_of_the_3_quizzes_you_can_enter_the_3_dots_on_the_top_left_of_the_screen_and_then_start"
+        android:textAlignment="center"
+        android:textColor="@color/red_light"
+        app:layout_anchor="@+id/res_quiz_view"
+        app:layout_anchorGravity="bottom|center" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_custom"
+        app:layout_anchor="@+id/res_quiz_view"
+        app:layout_anchorGravity="top|center" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
